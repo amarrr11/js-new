@@ -15,4 +15,13 @@ let myTimeStamp = Date.now()
 
 // console.log(myTimeStamp) //millisecond
 // console.log(myCreatedDate.getTime()) //to compare dates
-console.log(Math.floor(Date.now()/1000)) //to seconds
+// console.log(Math.floor(Date.now()/1000)) //to seconds
+
+let newDate=new Date()
+console.log(newDate)
+console.log(newDate.getMonth()+1)
+console.log(newDate.getDay())
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+})
