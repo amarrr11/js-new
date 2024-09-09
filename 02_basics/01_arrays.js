@@ -1,6 +1,5 @@
-
 const myArr= new Array(1,2,3,4)
-console.log(myArr[1]) //22
+console.log(myArr[1]) //2
 
 const myArr2 = [11,22,33,44]
 console.log(myArr2[2]) 
@@ -13,8 +12,8 @@ console.log(myArr)
 myArr.pop()
 
 myArr.unshift(0) //add 0 in beginning
-myArr.shift() //remove first element'
- 
+myArr.shift() //remove first element  
+
 console.log(myArr.includes(7))
 console.log(myArr.indexOf(3))
 
@@ -37,4 +36,3 @@ console.log("B ",myn1);
 const myn2=myArr.splice(1,3)
 console.log("C ",myArr)
 console.log(myn2)
-
